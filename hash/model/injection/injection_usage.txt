@@ -1,0 +1,22 @@
+Anti Hacking by @RomelSan
+
+* USAGE:
+
+require('injections.php');
+
+* To Sanitize input:
+
+good_string = sanitize_light($bad_string);
+
+
+--or:
+
+good_string = sanitize($bad_string);
+good_string = sanitize_custom($bad_string);
+
+
+
+
+Note: for SQL Statements you should use "Prepared Statements"
+	http://www.w3schools.com/php/php_mysql_prepared_statements.asp
+
