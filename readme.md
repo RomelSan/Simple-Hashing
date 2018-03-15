@@ -22,7 +22,7 @@ Por ejemplo la contraseña "12345" en sha256 es:
 ```sql
 INSERT INTO 'hash'.'user' ('firstname', 'lastname', 'social_id', 'email', 'password', 'creation_date', 'is_active', 'role', 'admin_max_users') VALUES ('Charles', 'Xavier', '0954568745', 'admin@mycompany.com', '5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5', '2016-04-06', 'yes', 'admin', '100');
 ```
-3) Editar el archivo "model/dbcore.php" y cambiar la dirección IP del servidor, el usuario y la contraseña.
+4) Editar el archivo "model/dbcore.php" y cambiar la dirección IP del servidor, el usuario y la contraseña.
 
 ## Licencia
 MIT
